@@ -38,7 +38,7 @@ export default function Home({ menu }: { menu: any }) {
         <Link href={"/games/shooter"}><div className="homepage__category__item">
           <div className="homepage__category__item__image">
             <Image
-              src="/zitibit/shootergame.png"
+              src="/game/shootergame.png"
               alt="Coding"
               width={300}
               height={200}
