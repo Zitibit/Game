@@ -9,7 +9,7 @@ We welcome contributions from everyone! If you have an article, tutorial, or gui
 5. Commit your changes and push them to your fork.
 6. Create a pull request to the main repository.
 
-We appreciate your help in making this project better!
+We appreciate your help in making this project better! 
 
 
 Photos By:
