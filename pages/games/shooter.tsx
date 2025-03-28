@@ -85,9 +85,6 @@ const ShooterGame: React.FC = () => {
     setIsMuted,
     setMaxScore,
   } = useGameStore();
-
-
-  console.log("isMuted", isMuted);
   
   // Initialize player and canvas
   useEffect(() => {
@@ -341,10 +338,10 @@ const ShooterGame: React.FC = () => {
     const movePlayer = () => {
       const moveSpeed = 10; // Adjust this value for faster/slower movement
 
-      if (keys.ArrowLeft) {
+      if (keys.current?.ArrowLeft) {
         player.current.x = Math.max(25, player.current.x - moveSpeed);
       }
-      if (keys.ArrowRight) {
+      if (keys.current?.ArrowRight) {
         player.current.x = Math.min(
           CANVAS_WIDTH - 25,
           player.current.x + moveSpeed
